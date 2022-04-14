@@ -1,0 +1,11 @@
+@import './variables.scss';
+
+html {
+  color: $colour-light;
+}
+
+body {
+  margin: 0;
+  font-family: Hind;
+  font-weight: $font-weight-normal;
+}
