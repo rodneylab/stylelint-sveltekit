@@ -1,38 +1,37 @@
-# create-svelte
+<img src="./images/rodneylab-github-stylelint-sveltekit.png" alt="Rodney Lab stylelint-sveltekit Github banner">
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+<p align="center">
+  <a aria-label="Open Rodney Lab site" href="https://rodneylab.com" rel="nofollow noopener noreferrer">
+    <img alt="Rodney Lab logo" src="https://rodneylab.com/assets/icon.png" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Stylelint SvelteKit
+</h1>
 
-## Creating a project
+# stylelint-sveltekit
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/rodneylab/stylelint-sveltekit)
+
+Demo code for using Stylelint with SvelteKit. The code accompanies the <a aria-label="Open Rodney Lab blog post on Style lint Svelte Kit" href="https://rodneylab.com/stylelint-sveltekit/">post on using Stylelint with SvelteKit</a>. If you have any questions, please drop a comment at the bottom of that page.
+
+## Building and previewing the site
 
 If you're seeing this, you've probably already done this step. Congrats!
 
 ```bash
-# create a new project in the current directory
-npm init svelte
-
-# create a new project in my-app
-npm init svelte my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+git clone https://github.com/rodneylab/stylelint-sveltekit.git
+cd stylelint-sveltekit
+pnpm install # or npm install
+pnpm run dev
 ```
 
 ## Building
 
-To create a production version of your app:
-
 ```bash
-npm run build
+pnpm run build
 ```
 
-You can preview the production build with `npm run preview`.
+> You can preview the built app with `pnpm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Feel free to jump into the [Rodney Lab matrix chat room](https://matrix.to/#/%23rodney:matrix.org).
