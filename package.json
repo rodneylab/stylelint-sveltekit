@@ -1,8 +1,10 @@
 {
   "name": "stylelint-sveltekit",
   "version": "0.0.1",
+  "license": "BSD-3-Clause",
+  "description": "Stylelint for SvelteKit: keep you Svelte code consistent and make sure your CSS and SCSS code follows your team's style guide to the letter!",
   "scripts": {
-    "dev": "svelte-kit dev --port 3030",
+    "dev": "svelte-kit dev --port 3000",
     "build": "svelte-kit build",
     "check": "svelte-check --fail-on-hints",
     "package": "svelte-kit package",
@@ -19,6 +21,7 @@
     "@fontsource/montserrat": "^4.5.10",
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
+    "commitlint": "^17.0.1",
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-svelte3": "^4.0.0",
@@ -35,5 +38,12 @@
     "svelte-check": "^2.7.1",
     "svelte-preprocess": "^4.10.6"
   },
-  "type": "module"
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodneylab/stylelint-sveltekit"
+  },
+  "bugs": {
+    "url": "https://github.com/rodneylab/stylelint-sveltekit/issues"
+  }
 }
