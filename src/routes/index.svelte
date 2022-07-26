@@ -1,6 +1,6 @@
 <script>
-  import '@fontsource/montserrat';
-  import '@fontsource/hind';
+  import '@fontsource/montserrat/latin.css';
+  import '@fontsource/hind/latin.css';
   import '$lib/styles/styles.scss';
 </script>
 
