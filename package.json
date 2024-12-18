@@ -1,50 +1,56 @@
 {
-  "name": "stylelint-sveltekit",
-  "version": "0.0.1",
-  "license": "BSD-3-Clause",
-  "description": "Stylelint for SvelteKit: keep you Svelte code consistent and make sure your CSS and SCSS code follows your team's style guide to the letter!",
-  "scripts": {
-    "dev": "vite dev",
-    "start": "vite dev",
-    "build": "vite build",
-    "check": "svelte-check",
-    "preview": "vite preview",
-    "lint": "prettier --ignore-path .gitignore --check --plugin=prettier-plugin-svelte . && eslint --ignore-path .gitignore .",
-    "lint:scss": "stylelint \"src/**/*.{css,scss,svelte}\"",
-    "prettier:check": "prettier --check --plugin=prettier-plugin-svelte .",
-    "format": "prettier --ignore-path .gitignore --write --plugin=prettier-plugin-svelte ."
-  },
-  "devDependencies": {
-    "@commitlint/config-conventional": "^18.4.3",
-    "@fontsource/hind": "^5.0.8",
-    "@fontsource/montserrat": "^5.0.15",
-    "@sveltejs/adapter-auto": "^2.1.1",
-    "@sveltejs/kit": "^1.27.6",
-    "commitlint": "link:latest@commitlint/config-conventional@latest",
-    "eslint": "^8.54.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-svelte": "^2.35.1",
-    "husky": "^8.0.3",
-    "postcss": "^8.4.31",
-    "postcss-html": "^1.5.0",
-    "prettier": "^3.1.0",
-    "prettier-plugin-svelte": "^3.1.2",
-    "sass": "^1.69.5",
-    "stylelint": "^15.11.0",
-    "stylelint-config-recommended-scss": "^13.1.0",
-    "stylelint-config-standard": "^34.0.0",
-    "stylelint-scss": "^5.3.1",
-    "svelte": "^4.2.7",
-    "svelte-check": "^3.6.1",
-    "svelte-preprocess": "^5.1.1",
-    "vite": "^5.0.2"
-  },
-  "type": "module",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rodneylab/stylelint-sveltekit"
-  },
-  "bugs": {
-    "url": "https://github.com/rodneylab/stylelint-sveltekit/issues"
-  }
+	"name": "stylelint-sveltekit",
+	"version": "0.0.1",
+	"license": "BSD-3-Clause",
+	"description": "Stylelint for SvelteKit: keep you Svelte code consistent and make sure your CSS and SCSS code follows your team's style guide to the letter!",
+	"scripts": {
+		"dev": "vite dev",
+		"start": "vite dev",
+		"build": "vite build",
+		"check": "svelte-check",
+		"preview": "vite preview",
+		"lint": "prettier --ignore-path .gitignore --check --plugin=prettier-plugin-svelte . && eslint .",
+		"lint:scss": "stylelint \"src/**/*.{css,scss,svelte}\"",
+		"prettier:check": "prettier --check --plugin=prettier-plugin-svelte .",
+		"format": "prettier --ignore-path .gitignore --write --plugin=prettier-plugin-svelte ."
+	},
+	"devDependencies": {
+		"@commitlint/config-conventional": "^19.6.0",
+		"@eslint/js": "^9.17.0",
+		"@fontsource/hind": "^5.1.0",
+		"@fontsource/montserrat": "^5.1.0",
+		"@sveltejs/kit": "^2.12.1",
+		"commitlint": "^19.6.1",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-svelte": "^2.46.1",
+		"globals": "^15.14.0",
+		"husky": "^9.1.7",
+		"postcss": "^8.4.49",
+		"postcss-html": "^1.7.0",
+		"prettier": "^3.4.2",
+		"prettier-plugin-svelte": "^3.3.2",
+		"sass": "^1.83.0",
+		"sass-embedded": "^1.83.0",
+		"stylelint": "^16.12.0",
+		"stylelint-config-recommended-scss": "^14.1.0",
+		"stylelint-config-standard": "^36.0.1",
+		"stylelint-scss": "^6.10.0",
+		"svelte": "^5.14.4",
+		"svelte-check": "^4.1.1",
+		"svelte-preprocess": "^6.0.3",
+		"typescript-eslint": "^8.18.1",
+		"vite": "^6.0.3"
+	},
+	"type": "module",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/rodneylab/stylelint-sveltekit"
+	},
+	"bugs": {
+		"url": "https://github.com/rodneylab/stylelint-sveltekit/issues"
+	},
+	"dependencies": {
+		"@sveltejs/adapter-static": "^3.0.6",
+		"@sveltejs/vite-plugin-svelte": "^5.0.3"
+	}
 }
